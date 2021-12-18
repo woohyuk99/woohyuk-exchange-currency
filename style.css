@@ -1,0 +1,61 @@
+.exchange-box{
+  border: 1px solid black;
+  width: 400;
+  text-align: center;
+}
+.dropbtn{
+  background-color: green;
+  color:white;
+  padding: 16px;
+  margin: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: gold;
+}
+
+.input-area{
+  width:100px;
+  border: 1px black solid;
+}
+
+.input-area input{
+  width: 100px;
+  border: 1px black solid;
+}
+
+.equal{
+  text-align: center;
+}
