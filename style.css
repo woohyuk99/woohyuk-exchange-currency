@@ -1,8 +1,9 @@
 .exchange-box{
   border: 1px solid black;
-  width: 400;
-  text-align: center;
+  width: 400px;
 }
+
+
 .dropbtn{
   background-color: green;
   color:white;
@@ -18,6 +19,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  
 }
 
 .dropdown-content{
@@ -47,15 +49,13 @@
 }
 
 .input-area{
-  width:100px;
+  width:100%;
   border: 1px black solid;
+ 
 }
 
-.input-area input{
-  width: 100px;
-  border: 1px black solid;
+.input-area1 input{
+  width: 100%;
+  border: 1px black solid; 
 }
 
-.equal{
-  text-align: center;
-}
